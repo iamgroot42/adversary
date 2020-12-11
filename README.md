@@ -4,17 +4,25 @@
 
 `Python 3.6.8`
 
-`tensorflow-gpu             2.0.0`, `tensorflow-determinism     0.3.0`, `numpy                      1.17.2`, `scipy                      1.3.3`, `jupyter                    1.0.0`, `notebook                   6.0.2`, `ipython                    7.11.1`, `tqdm                       4.40.2`, `Pillow                     6.2.1`, `matplotlib                 3.1.2`, `seaborn       0.9.0`, `randomgen                  1.14.4`, `foolbox                    2.3.0 (see note below)`
+#### Install python packages
 
-notes:
+`pip install -r requirements.txt`
 
-do not install the foolbox package, instead move the foolbox source code to the parent directory containing this project folder. such that:
+#### Note:
+
+Do not install the foolbox package (2.3.0), instead move the foolbox source code to the parent directory containing this project folder. such that:
 - `parent folder`
   - `foolbox`
     -  `...`
   - `adversary`
     - `...`
 
+### Download and extract pre-trained models
+
+`mv model_checkpoints`
+`wget https://www.dropbox.com/s/fph11yxcgntq1rv/model_checkpoints.7z?dl=1 -o model_checkpoints.7z`
+`7za e model_checkpoints.7z`
+`rm model_checkpoints.7z`
 
 
 ### Preparing Datasets

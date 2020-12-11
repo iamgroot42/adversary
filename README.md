@@ -19,10 +19,10 @@ Do not install the foolbox package (2.3.0), instead move the foolbox source code
 
 ### Download and extract pre-trained models
 
-`mv model_checkpoints`
-`wget https://www.dropbox.com/s/fph11yxcgntq1rv/model_checkpoints.7z?dl=1 -o model_checkpoints.7z`
-`7za e model_checkpoints.7z`
-`rm model_checkpoints.7z`
+- `mv model_checkpoints`
+- `wget https://www.dropbox.com/s/fph11yxcgntq1rv/model_checkpoints.7z?dl=1 -o model_checkpoints.7z`
+- `7za e model_checkpoints.7z`
+- `rm model_checkpoints.7z`
 
 
 ### Preparing Datasets
